@@ -162,7 +162,7 @@ const Navbar = ({toggle}) => {
                             >About</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to='services'
+                            <NavLinks to='discover'
                             smooth={true} 
                             duration={500} 
                             spy={true} 
@@ -171,7 +171,7 @@ const Navbar = ({toggle}) => {
                             activeClass="active">Services</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to='discover'
+                            <NavLinks to='services'
                             smooth={true} 
                             duration={500} 
                             spy={true} 

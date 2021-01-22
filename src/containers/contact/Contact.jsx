@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, {useState} from "react";
 import "./contactStyle.css";
 import Button from './../../components/Button';
 
@@ -17,6 +17,7 @@ const Contact = () => {
     }
 
     return (
+      <div id="contact">
         <form className="form" onSubmit={handleSubmit}>
           <h1>Contact Us 🤳</h1>
     
@@ -47,6 +48,7 @@ const Contact = () => {
             Submit
           </Button>
         </form>
+        </div>
       );
     };
     

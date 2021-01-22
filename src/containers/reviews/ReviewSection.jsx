@@ -59,6 +59,7 @@ export function ReviewsSection(props) {
   const isMobile = useMediaQuery({ query: "(max-width: 480px)" });
 
   return (
+    <div id="services">
     <ReviewsContainer>
       <SectionTitle>What others are saying about us</SectionTitle>
       <Marginer direction="vertical" margin="3em" />
@@ -102,5 +103,6 @@ export function ReviewsSection(props) {
         <StyledDotGroup />
       </StyledCarouselProvider>
     </ReviewsContainer>
+    </div>
   );
 }
